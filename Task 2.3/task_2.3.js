@@ -3,6 +3,4 @@ const   titleProject = 'Оценка стоимости';
         screenPrice = 100 + '$';
         percentage = 10;
         fullPrice = 1500;
-
-        console.log(titleProject, screensValue);
-
+        responsive = true;
