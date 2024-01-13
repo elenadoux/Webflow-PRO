@@ -27,8 +27,9 @@ function getFullPrice () {
 let fullPrice = getFullPrice();
 
 function getTitle () {
-        return finalTitle = titleProject[0].toUpperCase() + titleProject.slice(1);
+        return finalTitle = titleProject[0].toUpperCase() + titleProject.toLowerCase(1);
 }
+console.log(getTitle());
 
 let discountinfo;
 
