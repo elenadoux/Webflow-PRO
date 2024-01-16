@@ -85,7 +85,6 @@ console.log(screensValue, getRollbackMessage(),getServicePercentPrices() )
 
 allServicePrices = getAllServicePrices();
 fullPrice = getFullPrice();
-servicePercentPrice = getAllServicePrices ();
-
+servicePercentPrice = getServicePercentPrices();
 finalTitle = getTitle ();
 discountInfo = getRollbackMessage();
