@@ -9,8 +9,9 @@ let servicePercentPrice;
 let titleProject;
 let screensValue;
 let responsive;
-let service;
+let service1;
 let service2;
+let fullPrice;
 
 
 const checkIsNumber = function(x) {
@@ -23,7 +24,7 @@ const asking = function () {
     responsive = prompt('Нужен ли респонсив на сайте?');
 }
 
-
+asking();
 
 // let service1 = prompt('Какой сервис нужен?');
 // let servicePrice1 = prompt('Сколько это будет стоить?');
@@ -38,7 +39,7 @@ const getAllServicePrices = function () {
         for (let i = 0; i <2; i++) {
 
                 if (i === 0) {
-                        service = prompt ('Какой сервис нужен?')
+                        service1 = prompt ('Какой сервис нужен?')
                 } else if (i === 1) {
                         service2 = prompt ('Какой еще сервис нужен?')
                 }
@@ -59,7 +60,7 @@ function getFullPrice () {
 }
 
 function getTitle () {
-        return titleProject[0].toUpperCase() + titleProject.slice(1).toLowerCase;
+        return finalTitle = titleProject[0].toUpperCase() + titleProject.slice(1).toLowerCase();
 }
 console.log(getTitle());
 
@@ -82,7 +83,6 @@ function getServicePercentPrices () {
 console.log(screensValue, getRollbackMessage(),getServicePercentPrices() )
 
 
-asking();
 allServicePrices = getAllServicePrices();
 fullPrice = getFullPrice();
 servicePercentPrice = getAllServicePrices ();
