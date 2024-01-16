@@ -56,3 +56,4 @@ function  showTypeOf () {
 showTypeOf();
 
 console.log(screensValue, getRollbackMessage(),getServicePercentPrices() )
+
